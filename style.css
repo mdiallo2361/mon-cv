@@ -47,13 +47,14 @@ a:hover {
 .contact {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 10px 20px;
+  gap: 6px 16px;
+  margin-top: 6px;
 }
 
 .contact li {
-  font-size: 0.88rem;
+  font-size: 0.82rem;
 }
 
 .contact a {
@@ -64,9 +65,9 @@ a:hover {
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 0;
 }
 
 .photo-profil {
@@ -80,6 +81,7 @@ a:hover {
 
 .header-info {
   text-align: left;
+  flex: 1;
 }
 
 /* ===== CONTAINER ===== */
@@ -155,8 +157,8 @@ a:hover {
 /* ===== COMPÉTENCES ===== */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .skill-group h3 {
@@ -182,39 +184,7 @@ a:hover {
   color: #1a5276;
 }
 
-/* ===== BARRES COMPÉTENCES ===== */
-.skill-bar-item {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-bottom: 3px;
-}
 
-.skill-bar-item span:first-child {
-  width: 90px;
-  font-size: 0.82rem;
-  color: #333;
-}
-
-.skill-bar-item span:last-child {
-  font-size: 0.78rem;
-  color: #888;
-  width: 35px;
-}
-
-.skill-barre {
-  flex: 1;
-  background: #e0e0e0;
-  border-radius: 10px;
-  height: 7px;
-  overflow: hidden;
-}
-
-.skill-niveau {
-  height: 100%;
-  background: linear-gradient(to right, #1a5276, #a8d8ea);
-  border-radius: 10px;
-}
 
 /* ===== LANGUES ===== */
 .langues {
