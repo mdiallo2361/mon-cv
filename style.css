@@ -431,3 +431,54 @@ a:hover {
     margin-bottom: 6px !important;
   }
 }
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media screen and (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-info {
+    text-align: center;
+  }
+
+  .contact {
+    justify-content: center;
+  }
+
+  .photo-profil {
+    width: 100px;
+    height: 100px;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .section {
+    padding: 16px;
+  }
+
+  .item-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .docs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .langue-item span:first-child {
+    width: 70px;
+  }
+}
