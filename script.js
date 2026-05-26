@@ -28,7 +28,7 @@ new QRCode(document.getElementById("qr-projet"), {
 });
 
 new QRCode(document.getElementById("qr-s5"), {
-  text: "TON_LIEN_ICI",
+  text:"https://drive.google.com/file/d/1Gz4lIEurO2XMWBbJab0_C1KBbIR6J_Dy/view?usp=sharingTON_LIEN_ICI",
   width: 80,
   height: 80,
   colorDark: "#1a1a2e",
